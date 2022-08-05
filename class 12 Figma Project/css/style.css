@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/*Cummon Css Start*/
+    body{
+        font-family: 'Open Sans', sans-serif;
+   }
+   ul{
+       list-style: none;
+   }
+   a{
+       text-decoration: none;
+   }
+   .container{
+       width: 1140px;
+       margin: auto;
+   }
+   .row{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .align_center{
+       align-items: center;
+   }
+   
+/*//Cummon Css End*/
+/*nav Section Css Start*/
+   #nav .nav_logo{
+       width: 30%;
+   }
+   #nav .nav_menu{
+       width: 70%;
+       text-align: right;
+   }
+   #nav .nav_logo img{
+       display: block;
+       padding: 42px 0;
+   }
+   #nav .nav_menu ul li{
+       display: inline-block;
+   }
+   #nav .nav_menu ul li a{
+       display: block;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 19px;
+       padding: 42px 30px;
+       color: #000;
+    
+   }
+/*//nav Section Css End*/
+/*banner Section Css Start*/
+#banenr{
+    height: 660px;
+}
+#banenr .banner_left{
+    width: 50%;
+}
+#banner .banner_right{
+    width: 50%;
+}
+.banner_left .banner_con{
+    width: 100%;
+    
+
+}
+.banner_left .banner_con h4{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+}
+.banner_left .banner_con h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+}
+.banner_left .banner_con h3{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+}
+.banner_left .banner_con .btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 22px 60px;
+    color: #fff;
+    background-color: #F8991C;
+    border-radius: 6px;
+    margin-top: 35px;
+    border: none;
+}
+.banner_left .banner_con .socalIcon {
+    margin-top: 170px;
+    position: relative;
+    width: 200px;
+}
+.banner_left .banner_con .socalIcon p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.banner_left .banner_con .socalIconOverlay{
+    position: absolute;
+    top: -30px;
+    left: 102px;
+}
+/*//banner Section Css End*/
